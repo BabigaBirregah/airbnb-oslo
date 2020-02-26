@@ -15,6 +15,18 @@ Our focus area is the city of Oslo - the capital of Norway - and we have identif
 
 **Question 4**: What are the top predictors of price?
 
+## Process
+To help organize our work in the Jupyter Notebook we are following the Cross-industry standard process for data mining (CRISP-DM), which is an open standard process model that describes common approaches used by data mining experts.
+
+There are 6 major phases in this process:
+
+1. Business Understanding
+2. Data Understanding
+3. Data Preparation
+4. Modeling
+5. Evaluation
+6. Deployment
+
 ## Data
 
 ### Source
@@ -25,7 +37,6 @@ The data is gathered from Inside Airbnb (http://insideairbnb.com/), which is a f
 2. 'listings.csv' (shape: 8604, 106)
 3. 'calendar.csv.gz' (shape: 3140460, 7)
 
-### About:
 **File 1** is a geopandas 'GeoDataFrame', which makes it possible to plot on a city map divided into neighbourhoods. Otherwise it's like normal pandas.
 
 **Key variables:**
@@ -95,7 +106,7 @@ variance_inflation_factor (statsmodels) used to evaluate covariance among some o
 
 All the findings regarding business questions make it to the blog.
 
-Except the top predictors of price are boiled down to:
+Except the top predictors of price that are boiled down to:
 
 1. Location (represented by three adjacent grid sectors)
 2. Roominess (represented by how many people can be accommodated and the number of bathrooms)
