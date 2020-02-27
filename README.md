@@ -104,7 +104,7 @@ variance_inflation_factor (statsmodels) used to evaluate covariance among some o
 
 ## Key Insights for the Blog
 
-All the findings regarding business questions make it to the blog.
+All the findings regarding business questions have made it to the blog.
 
 Except the top predictors of price that are boiled down to:
 
